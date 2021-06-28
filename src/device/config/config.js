@@ -1,0 +1,12 @@
+/**
+ * Configuration related stuff
+ */
+module.exports = Object.freeze({
+    SERVER_BASE_URL: "http://localhost:5000",
+    HBEAT_DELAY_IN_MS: 5000,
+    LOGIN_DELAY_IN_MS: 5000,
+    GPS_DELAY_IN_MS: 5000,
+    LOGIN_TIMEOUT_INTERVAL: 5,
+    REBOOT_AFTER_TIMEOUT_COUNT: 3,
+    DATA_PACKET_TO_SEND: "78 78 22 22 0F 0C 1D 02 33 05 C9 02 7A C8 18 0C 46 58 60 00 14 00 01 CC 00 28 7D 00 1F 71 00 00 01 00 08 20 86 0D 0A"
+})
