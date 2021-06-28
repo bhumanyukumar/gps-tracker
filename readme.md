@@ -2,8 +2,8 @@
 ## Features
 
 - Device Sends login packet to server
-- After sucessful login packet response from server, device sends heartbeat packet
-- After sucessful hearbeat packet response from server, device sends gps packet
+- After successful login packet response from server, device sends heartbeat packet
+- After successful hearbeat packet response from server, device sends gps packet
 - GPS packet is decoded and saved in a file at server
 
 ## Installation
@@ -14,9 +14,10 @@ Clone the project
 git clone https://github.com/bhumanyukumar/gps-tracker.git
 ```
 ### Step 2
-Install the dependencies
+Go to the cloned project folder & Install the dependencies
 
 ```sh
+cd gps-tracker
 npm install
 ```
 ### Step 3
