@@ -29,5 +29,5 @@ npm run start:device
 npm run start:server
 ```
 
-> Note: The file written by server will be in`output` folder.
+> Note: The file written by server will be in `output` folder.
 
